@@ -1,0 +1,62 @@
+body{
+    background-color:#eeeeff;
+    background-image: url(./img/purple.jpg);
+    background-position: center;
+    background-size: cover; 
+    
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #eeeeff;
+    opacity: 1; /* Firefox */
+}
+input[type=text] {
+    color: #eeeeff;
+    opacity: 1; /* Firefox */ 
+}
+
+h6{
+    font-size: 11px !important;
+}
+
+.hero {
+    margin: 100px auto;
+    min-height: 650px;
+    
+}
+
+.first-col{
+    background-color: #2F2A62;
+    min-height: 450px;
+}
+.promo-example{
+    margin:50px auto;
+}
+
+.second-col{
+    
+    max-height: 450px;
+    
+}
+
+.second-col .card-image{
+    height: 150px;
+    background-image: url(./img/purple.png);
+    background-position: center;
+    background-size: cover;    
+
+}
+
+.second-col .card-heading{
+    margin-top: 50px;
+    margin-left:25px;
+    font-size: 25px;
+    color: #eeeeff;
+    
+}
+.info-list{
+    background-color:#2c3060;
+}
+.info-list .collection i{
+    color:#2c3060;
+}

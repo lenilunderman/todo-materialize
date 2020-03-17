@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- My own css style-->
+    <link rel="stylesheet" href="styles.css">
+
+    <title> Todos with Materialize CSS </title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container hero">
+            <div class="row application">
+                <!--first block add new things to the list-->
+                <div class="col s6 first-col">
+                    <nav class="transparent">
+                        <div class="nav-wrapper">
+                            <div class="brand-logo center">Todos
+                            
+                            </div>
+                    </nav>
+                    <div class="col s12">
+                        <div class="center promo promo-example">
+                          <i class="material-icons large white-text">all_inclusive</i>
+                        </div>
+                        
+                    </div>
+                    <div class="row">
+                        <form class="container form">
+                            <div class="input-field">
+                                <input id="business" type="text" placeholder="Type of business">   
+                            </div>
+                            
+                            <div class="input-field">
+                                <input id="location" type="text" placeholder="Description">   
+                            </div>
+
+                            <button class="addForm btn waves-effect waves-light deep-purple lighten-3" type="submit" name="action">Add new todo
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <!--second card-->
+                <div class="col s6 second-col">
+                    <div class="card-image">
+                        <div class="row">
+                            <div class="col s9">
+                                <div class="card-heading">
+                                    <span class="card-title">Company Name</span>
+                                </div>
+
+                            </div>
+                            <div class="col s3">
+                                <div class="card-info">
+                                    
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="section info-list">
+                        <ul class="collection todos">
+                            <li class="collection-item">
+                                <span >Technology <br> <i class="material-icons secondary-content">delete</i> <h6>The application of scientific knowledge for practical purposes, especially in industry.</h6></span>
+                            </li>
+                            <li class="collection-item">
+                                <span >Electronic <br> <i class="material-icons secondary-content">delete</i> <h6>A device that operates on the basis of the controlled flow of electrons through semiconductors.</h6></span>
+                            </li>
+                            <li class="collection-item">
+                                <span >Programming  <br> <i class="material-icons secondary-content">delete</i> <h6>Is the process of creating a set of instructions that tell a computer how to perform a task.</h6></span>
+                            </li>
+    
+                               
+                        </ul>
+                        
+                        
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>  
+
+    <script src="app.js"></script>
+</body>
+</html>
